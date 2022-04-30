@@ -1,0 +1,58 @@
+
+/* This CSS stylesheet is made for the responsiveness of the website */
+
+/* Initiation of the CSS Source Code */
+
+/* Navigation */
+#navbar{
+    flex-direction: column;
+    width: 766px;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+/* Home Section */
+#main{
+    height: 410px;
+    padding: 3px 28px;
+    width: 710px;
+}
+
+/* Tribute Information Section */
+/* This Section does not contain any styling content in response.css */
+
+/* Career Section */
+#career1,
+#career2{
+    flex-direction: column;
+}
+
+/* Divider Section */
+#divider{
+    height: 90px;
+    width: 366px;
+}
+
+/* Footer */
+#foot{
+    width: 366px;
+}
+
+/* Utility Classes */
+.h-primary{
+    font-size: 2rem;
+}
+
+.h-secondary{
+    font-size: 1.5rem;
+}
+
+.h-tertiary{
+    font-size: 1.5rem;
+}
+
+/* Termination of the CSS Source Code */

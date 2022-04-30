@@ -1,0 +1,202 @@
+
+/* This CSS stylesheet is made for beautification of the webpage */
+
+/* Initiation of the CSS Source Code */
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Smooth Scrolling of the webpage */
+html{
+    scroll-behavior: smooth;
+}
+
+/* Body */
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Navigation Bar */
+#navbar {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0;
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgb(17, 17, 17);
+    position: absolute;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    z-index: -1;
+}
+
+/* Navigation: List Styling */
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#navbar ul li {
+    color: rgb(201, 201, 201);
+    display: block;
+    margin: 10px 20px;
+    padding: 0px 0px;
+}
+
+/* Home Section */
+#main {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background-color: rgb(24, 25, 26);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    padding: 3px 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Tribute Information Section */
+#tribute-info {
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    display: flex;
+
+}
+
+#bio{
+    padding: 80px 30px;
+    margin: 3px 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+}
+
+.box1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Tribute Information: Image of Sushant */
+#image{
+    width: 30rem;
+    margin: 30px 100px;
+    display: block;
+    box-shadow: 4px 4px 5px 1px rgb(120, 120, 120);
+}
+
+/* Divider Section */
+#divider {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background-color: rgb(24, 25, 26);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    padding: 3px 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Career Section */
+#career1{
+    font-family: 'Lato', sans-serif;
+    margin: 34px;
+    display: flex;
+    justify-content: center;
+}
+
+#career1 .box2{
+    padding: 34px;
+    margin: 3px 6px;
+}
+
+#career2{
+    font-family: 'Lato', sans-serif;
+    margin: 34px;
+    display: flex;
+    justify-content: center;
+}
+
+#career2 .box2{
+    padding: 34px;
+    margin: 3px 6px;
+}
+
+/* Footer */
+#foot {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background-color: rgb(24, 25, 26);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    padding: 3px 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Utility Classes */
+.h-primary{
+    font-size: 3rem;
+}
+
+.h-secondary{
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgb(145, 145, 145);
+}
+
+.h-tertiary{
+    font-size: 2.2rem;
+    color: white;
+}
+
+/* Button Link */
+#tribute-link{
+    padding: 6px 20px;
+    border: 1px solid white;
+    background-color: rgb(0, 27, 116);
+    margin: 5px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#tribute-link a{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#tribute-link:hover{
+    padding: 6px 20px;
+    border: 1px solid white;
+    background-color: rgb(0, 38, 161);
+    box-shadow: 3px 3px 5px 1px black;
+    margin: 5px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Termination of the CSS Source Code */
